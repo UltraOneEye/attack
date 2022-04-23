@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="#" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE EYE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <dev class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">SEASONS</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li>
+              <a href="https://www.facebook.com/khalil.jalal.kj" target="_blank"
+                >ABOUT</a
+              >
+            </li>
+          </ul>
+        </dev>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>World's Best Anime Show</h1>
+        <p>
+          Attack on Titan (Japanese: 進撃の巨人, Hepburn: Shingeki no Kyojin,
+          lit. "The Advancing Giants") is a Japanese manga series written and
+          illustrated by Hajime Isayama. It is set in a world where humanity
+          lives inside cities surrounded by three enormous walls that protect
+          them from the gigantic man-eating humanoids referred to as Titans.
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+    <!---SEASONS---->
+    <section class="seasons">
+      <h1>Seasons We Offer</h1>
+      <p>Stay Tuned For Future Update</p>
+      <div class="row">
+        <div class="allseasons">
+          <h3>SEASON ONE</h3>
+
+          <a
+            href="https://animespire.buzz/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%86%D9%85%D9%8A-attack-on-titan-season-1-baaaahwG"
+            target="_blank"
+            ><p>FIRST SEASON</p></a
+          >
+        </div>
+        <div class="allseasons">
+          <h3>SEASON TWO</h3>
+
+          <a
+            href="https://animespire.buzz/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%86%D9%85%D9%8A-attack-on-titan-season-2-baaaahwH"
+            target="_blank"
+            ><p>SECOND SEASON</p></a
+          >
+        </div>
+        <div class="allseasons">
+          <h3>SEASON THREE</h3>
+
+          <a
+            href="https://animespire.buzz/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%86%D9%85%D9%8A-attack-on-titan-season-3-baaaahwQ"
+            target="_blank"
+            ><p>THIRD SEASON</p></a
+          >
+        </div>
+        <div class="allseasons">
+          <h3>SEASON FOUR</h3>
+          <a
+            href="https://animespire.buzz/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%86%D9%85%D9%8A-shingeki-no-kyojin-the-final-season-baaaah0c"
+            target="_blank"
+            ><p>FORTH SEASON</p></a
+          >
+        </div>
+      </div>
+    </section>
+    <!--------cam------>
+    <section class="cam">
+      <h1>Our Global</h1>
+      <p>
+        the story follows Eren Yeager, who vows to exterminate the Titans after
+        a Titan brings about the destruction of his hometown and the death of
+        his mother.
+      </p>
+      <div class="row">
+        <div class="cam-col">
+          <img src="images/london.png" />
+          <div class="layer"><h3>Reiner Braun</h3></div>
+        </div>
+        <div class="cam-col">
+          <img src="images/washington.png" />
+          <div class="layer"><h3>Levi</h3></div>
+        </div>
+        <div class="cam-col">
+          <img src="images/newyork.png" />
+          <div class="layer"><h3>Mikasa and Levi</h3></div>
+        </div>
+      </div>
+    </section>
+    <!-------faci----->
+    <section class="faci">
+      <h1>There Should Be Something Here</h1>
+      <p>honstly there is nothing here</p>
+      <div class="row">
+        <div class="faci-col">
+          <img src="images/library.png" />
+          <h3>Eren Yeager</h3>
+          <p>who vows to exterminate the Titans</p>
+        </div>
+        <div class="faci-col">
+          <img src="images/basketball.png" />
+          <h3>Attack on Titan</h3>
+          <p>
+            (Japanese: 進撃の巨人, Hepburn: Shingeki no Kyojin, lit. "The
+            Advancing Giants")
+          </p>
+        </div>
+        <div class="faci-col">
+          <img src="images/cafeteria.png" />
+          <h3>titans fight</h3>
+          <p>impressive</p>
+        </div>
+      </div>
+    </section>
+
+    <!----java script for menu----->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
